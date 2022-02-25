@@ -260,3 +260,16 @@ p::first-line {
   width: 560px;
   margin: 2em auto;  
 }
+/*Sinal de + pega o primeiro irmão do item referenciado(Seleção avançada)*/
+img + p {
+    background: blue;
+}
+/*Sinal de ~ pega todos os itens do item referenciado(Seleção avançada)*/
+img ~ p {
+    background: yellow;
+}
+
+/*Selecionando todos elemento p, que não possui #missao na tag(Seleção avançada)*/
+.principal p:not(#missao) {
+    background: orange;
+}
