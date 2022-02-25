@@ -203,7 +203,8 @@ p::first-line {
 }
 
 .utensilios {
-    width: 120px;
+    /*Propriedade calc calculando css para alterar medidas a partir de medidas já existentes*/
+    width: calc(40% - ((26px * 4) / 4));
     float: left;
     margin: 0 20px 20px 0;
 }
